@@ -61,8 +61,9 @@ npx nodemon server.js
 <h2>🎨 Screenshots / Demo</h2>
 
 <p align="center">
-  <img src="assets/screenshots/homepage.jpg" width="400" alt="Homepage Screenshot" />
-  <img src="assets/screenshots/vault.jpg" width="400" alt="Vault Screenshot" />
+<img src="src/assets/icons/homepage.jpg" width="400" alt="Homepage Screenshot" />
+<img src="src/assets/icons/valut.jpg" width="400" alt="Vault Screenshot" />
+
 </p>
 
 <hr>
