@@ -1,16 +1,74 @@
-# React + Vite
+<h1 align="center">🔐 Password-Manager</h1>
+<p align="center">
+A secure password manager built with <strong>React + Vite</strong> and <strong>Node.js + Express</strong>.<br>
+Store, edit, and delete your passwords securely in an organized vault.
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr>
 
-Currently, two official plugins are available:
+<h2>🚀 Features</h2>
+<ul>
+  <li>Securely store passwords in the database</li>
+  <li>Edit existing passwords</li>
+  <li>Delete passwords when no longer needed</li>
+  <li>Organized vault for all credentials</li>
+  <li>Clean and intuitive user interface</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr>
 
-## React Compiler
+<h2>🛠 Tech Stack</h2>
+<p>
+<strong>Frontend:</strong> React + Vite + Tailwind CSS<br>
+<strong>Backend:</strong> Node.js + Express<br>
+<strong>Icons:</strong> Lucide React
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<hr>
 
-## Expanding the ESLint configuration
+<h2>💻 Project Structure</h2>
+<pre>
+PasswordManeger/
+├─ vite-project/       # Frontend (React + Vite + Tailwind)
+├─ backend/            # Backend (Node + Express)
+├─ assets/
+│   └─ screenshots/    # Screenshots for README
+└─ README.md
+</pre>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<hr>
+
+<h2>⚡ Installation & Run Locally</h2>
+
+<h3>Frontend</h3>
+<pre>
+cd vite-project
+npm install
+npm run dev
+</pre>
+<p>Open browser at: <code>http://localhost:5173</code></p>
+
+<h3>Backend</h3>
+<pre>
+cd backend
+npm install
+npx nodemon server.js
+</pre>
+<p>Server runs at: <code>http://localhost:5000</code></p>
+
+<hr>
+
+<h2>🎨 Screenshots / Demo</h2>
+
+<p align="center">
+  <img src="assets/screenshots/homepage.jpg" width="400" alt="Homepage Screenshot" />
+  <img src="assets/screenshots/vault.jpg" width="400" alt="Vault Screenshot" />
+</p>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+<p>
+<strong>Sidhant Kamble</strong><br>
+<a href="https://github.com/sidhantkamble22">GitHub Profile</a>
+</p>
